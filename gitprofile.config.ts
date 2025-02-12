@@ -2,7 +2,7 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'bunsdev', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['bunsdev/gitprofile', 'bunsdev/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -38,7 +38,7 @@ const CONFIG = {
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'https://chain.link',
         },
         {
           title: 'Project Name',
@@ -46,65 +46,64 @@ const CONFIG = {
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'https://dedevs.club',
         },
       ],
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Buns Enchantress',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'buns',
+    twitter: '0xbuns',
+    mastodon: '',
     researchGate: '',
     facebook: '',
-    instagram: '',
-    reddit: '',
-    threads: '',
-    youtube: '', // example: 'pewdiepie'
+    instagram: 'bunsdev',
+    reddit: 'bunsdev',
+    threads: 'bunsdev',
+    youtube: '0xbuns', // example: 'pewdiepie'
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: 'buns',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
-    telegram: '',
-    website: 'https://www.arifszn.com',
+    telegram: 'bunsdev',
+    website: 'https://0xbuns.com',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'buns@dedevs.club',
   },
   resume: {
     fileUrl:
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'Solidity',
+    'Typescript',
+    'Python',
+    'Foundry',
     'JavaScript',
     'React.js',
     'Node.js',
-    'Nest.js',
     'MySQL',
     'PostgreSQL',
     'Git',
-    'Docker',
-    'PHPUnit',
     'CSS',
-    'Antd',
+    'Jest',
     'Tailwind',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Chainlink Labs',
+      position: 'Developer Relations Engineer (DRE)',
+      from: 'March 2024',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://chain.link',
     },
     {
       company: 'Company Name',
@@ -124,16 +123,16 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
+      institution: 'University of Houston (UH)',
+      degree: 'MA Applied Economics',
       from: '2015',
-      to: '2019',
+      to: '2016',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'University of Houston (UH)',
+      degree: 'BS Economics (Math)',
+      from: '2011',
+      to: '2015',
     },
   ],
   publications: [
@@ -159,8 +158,8 @@ const CONFIG = {
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
+    username: 'buns', // to hide blog section, keep it empty
+    limit: 10, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
@@ -234,11 +233,11 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
+  footer: `Enchanted by <a 
+      class="text-primary" href="https://github.com/bunsdev/gitprofile"
       target="_blank"
       rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+    >Buns</a> avec ❤️`,
 
   enablePWA: true,
 };
